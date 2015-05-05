@@ -1,0 +1,32 @@
+{
+  "name": "TS-ImageLibrary",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nidin/TS-ImageLibrary",
+  "authors": [
+    "Nidin Vinayakan <nidinthb@gmail.com>"
+  ],
+  "description": "JavaScript Image Library Written in TypeScript",
+  "main": "src/ImageLibrary.ts",
+  "moduleType": [
+    "amd",
+    "es6"
+  ],
+  "keywords": [
+    "image",
+    "processing",
+    "jpg",
+    "png",
+    "encoder"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ByteArray": "latest"
+  }
+}

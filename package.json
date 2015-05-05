@@ -1,0 +1,43 @@
+{
+  "name": "TS-ImageLibrary",
+  "version": "1.0.0",
+  "description": "JavaScript Image Library Written in TypeScript",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nidin/TS-ImageLibrary.git"
+  },
+  "keywords": [
+    "image-library",
+    "encoder",
+    "png",
+    "jpg",
+    "bitmap"
+  ],
+  "author": "Nidin Vinayakan <nidinthb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nidin/TS-ImageLibrary/issues"
+  },
+  "homepage": "https://github.com/nidin/TS-ImageLibrary",
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "devDependencies": {
+    "bower":"latest",
+    "typescript":"latest",
+    "gulp":"3.8.11",
+    "gulp-shell":"*",
+    "gulp-uglify":"*",
+    "gulp-rename":"*",
+    "gulp-util":"*",
+    "gulp-sourcemaps":"*",
+    "del":"*",
+    "jasmine": "2.1.0",
+    "phantomjs":"1.9.12",
+    "requirejs":"2.1.15"
+  }
+}

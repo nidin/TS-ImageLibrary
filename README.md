@@ -1,2 +1,2 @@
-# JS-ImageLibrary
+# TS-ImageLibrary
 JavaScript Image Library Written in TypeScript
